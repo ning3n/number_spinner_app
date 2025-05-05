@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:number_spinner_app/screens/number_spinner_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -9,12 +10,10 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
+    return MaterialApp(
+      title: 'Suma con ruletas',
+      theme: ThemeData.dark(),
+      home: NumberSpinnerScreen(),        
     );
   }
 }
