@@ -15,7 +15,7 @@ Widget numberWheel({required Function(int) onSelectedItemChanged}){
         builder: (context, index) => Center(
           child: Text(
             numbers[index].toString(),
-            style: TextStyle(fontSize: 24),
+            style: TextStyle(fontSize: 40),
           ),
         ),
         childCount: numbers.length,

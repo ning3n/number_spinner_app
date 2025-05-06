@@ -21,7 +21,7 @@ class _NumberSpinnerScreenState extends State<NumberSpinnerScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text('Selecciona dos numeros:', style: TextStyle(fontSize: 18)),
+          Text('Selecciona dos numeros:', style: TextStyle(fontSize: 28)),
           SizedBox(height: 20),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
